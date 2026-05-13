@@ -416,3 +416,22 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+# Project-specific ignored files
+.codex/
+
+# Local database files
+*.db
+*.db-shm
+*.db-wal
+
+# Private config files
+VisitorManagementSystem/appsettings.json
+VisitorManagementSystem/appsettings.Development.json
+VisitorManagementSystem/appsettings.Local.json
+.env
+
+# Visitor uploaded photos
+VisitorManagementSystem/VisitorPhotos/*
+!VisitorManagementSystem/VisitorPhotos/.gitkeep
